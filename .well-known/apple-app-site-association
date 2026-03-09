@@ -1,0 +1,29 @@
+{
+  "appclips": {
+    "apps": [
+      "5B2NQ74986.app.takaoka.com.EventSnap2.Clip"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5B2NQ74986.app.takaoka.com.EventSnap2",
+        "paths": [
+          "/event/*"
+        ]
+      },
+      {
+        "appID": "5B2NQ74986.app.takaoka.com.EventSnap2.Clip",
+        "paths": [
+          "/event/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5B2NQ74986.app.takaoka.com.EventSnap2"
+    ]
+  }
+}
