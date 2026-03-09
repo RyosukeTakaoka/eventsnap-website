@@ -1,20 +1,20 @@
 {
   "appclips": {
     "apps": [
-      "TEAMID.app.takaoka.com.EventSnap2.Clip"
+      "5B2NQ74986.app.takaoka.com.EventSnap2.Clip"
     ]
   },
   "applinks": {
     "apps": [],
     "details": [
       {
-        "appID": "TEAMID.app.takaoka.com.EventSnap2",
+        "appID": "5B2NQ74986.app.takaoka.com.EventSnap2",
         "paths": [
           "/event/*"
         ]
       },
       {
-        "appID": "TEAMID.app.takaoka.com.EventSnap2.Clip",
+        "appID": "5B2NQ74986.app.takaoka.com.EventSnap2.Clip",
         "paths": [
           "/event/*"
         ]
@@ -23,7 +23,7 @@
   },
   "webcredentials": {
     "apps": [
-      "TEAMID.app.takaoka.com.EventSnap2"
+      "5B2NQ74986.app.takaoka.com.EventSnap2"
     ]
   }
 }
