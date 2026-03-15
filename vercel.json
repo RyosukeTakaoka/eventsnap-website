@@ -7,6 +7,10 @@
         "Cache-Control": "public, max-age=3600"
       },
       "dest": "/.well-known/apple-app-site-association"
+    },
+    {
+      "src": "/event/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
