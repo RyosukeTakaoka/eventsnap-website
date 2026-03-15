@@ -1,16 +1,23 @@
 {
-  "routes": [
+  "headers": [
     {
-      "src": "/.well-known/apple-app-site-association",
-      "headers": {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=3600"
-      },
-      "dest": "/.well-known/apple-app-site-association"
-    },
+      "source": "/.well-known/apple-app-site-association",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
     {
-      "src": "/event/(.*)",
-      "dest": "/index.html"
+      "source": "/event/:path*",
+      "destination": "/index.html"
     }
   ]
 }
